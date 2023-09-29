@@ -9,6 +9,7 @@ mixer.init()
 # Create the main application window
 app = tk.Tk()
 app.title("Music Player")
+app.geometry("500x300")
 
 # Function to open a file and play it
 def play_music():
